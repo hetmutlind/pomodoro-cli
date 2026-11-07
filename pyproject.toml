@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pomodoro-cli"
+version = "1.0.0"
+description = "A pretty, zero-dependency ASCII Pomodoro timer for your terminal (Linux, macOS, Windows)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Your Name"}]
+keywords = ["pomodoro", "timer", "cli", "terminal", "productivity", "ascii", "tui"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+    "Topic :: Utilities",
+]
+
+[project.scripts]
+pomodoro = "pomodoro:cli"
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/pomodoro-cli"
+Issues = "https://github.com/YOUR_USERNAME/pomodoro-cli/issues"
+
+[tool.setuptools]
+py-modules = ["pomodoro"]
