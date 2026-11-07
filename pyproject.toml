@@ -7,7 +7,7 @@ name = "pomodoro-cli"
 version = "1.0.0"
 description = "A pretty, zero-dependency ASCII Pomodoro timer for your terminal (Linux, macOS, Windows)."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [{name = "Your Name"}]
 keywords = ["pomodoro", "timer", "cli", "terminal", "productivity", "ascii", "tui"]

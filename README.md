@@ -6,7 +6,7 @@
 One file. Linux · macOS · Windows. It figures out the rest.
 
 [![CI](https://github.com/YOUR_USERNAME/pomodoro-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/pomodoro-cli/actions/workflows/ci.yml)
-![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Platforms](https://img.shields.io/badge/platform-linux%20%7C%20macOS%20%7C%20windows-lightgrey)
 ![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
@@ -99,7 +99,7 @@ pipx install git+https://github.com/YOUR_USERNAME/pomodoro-cli
 pomodoro
 ```
 
-Requires Python 3.9+. On Windows, use Windows Terminal or any terminal with ANSI support (Windows 10+).
+Requires Python 3.10+. On Windows, use Windows Terminal or any terminal with ANSI support (Windows 10+).
 
 ## 🚀 Usage
 
