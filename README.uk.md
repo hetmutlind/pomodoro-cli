@@ -87,15 +87,15 @@
 **Просто запустити** (нічого встановлювати не треба):
 
 ```bash
-curl -O https://raw.githubusercontent.com/YOUR_USERNAME/pomodoro-cli/main/pomodoro.py
+curl -O https://raw.githubusercontent.com/hetmutlind/pomodoro-cli/main/pomodoro.py
 python pomodoro.py
 ```
 
 **Або встановити команду `pomodoro`:**
 
 ```bash
-pipx install git+https://github.com/YOUR_USERNAME/pomodoro-cli
-# або: pip install git+https://github.com/YOUR_USERNAME/pomodoro-cli
+pipx install git+https://github.com/hetmutlind/pomodoro-cli
+# або: pip install git+https://github.com/hetmutlind/pomodoro-cli
 pomodoro
 ```
 

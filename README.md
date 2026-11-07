@@ -87,15 +87,15 @@ One file. Linux · macOS · Windows. It figures out the rest.
 **Just run it** (nothing to install):
 
 ```bash
-curl -O https://raw.githubusercontent.com/YOUR_USERNAME/pomodoro-cli/main/pomodoro.py
+curl -O https://raw.githubusercontent.com/hetmutlind/pomodoro-cli/main/pomodoro.py
 python pomodoro.py
 ```
 
 **Or install a `pomodoro` command:**
 
 ```bash
-pipx install git+https://github.com/YOUR_USERNAME/pomodoro-cli
-# or: pip install git+https://github.com/YOUR_USERNAME/pomodoro-cli
+pipx install git+https://github.com/hetmutlind/pomodoro-cli
+# or: pip install git+https://github.com/hetmutlind/pomodoro-cli
 pomodoro
 ```
 
